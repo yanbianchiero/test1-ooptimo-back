@@ -1,4 +1,3 @@
-
 OOPTIMO Job Application tests — PHP
 ------------
 
@@ -14,8 +13,8 @@ INSTALACIÓN
 ------------
 
 ```
-git clone git@gitlab.com:asunyer/ooptimo-job-application-tests-php.git ooptimo-job-application-tests-php
-cd ooptimo-job-application-tests-php
+git clone git@gitlab.com:ooptimo/job-application-tests-php.git
+cd job-application-tests-php
 composer install
 ```
 
