@@ -12,7 +12,7 @@ En caso de dudas o problemas, contactar con [asunyer@ooptimo.com](mailto:asunyer
 INSTALACIÓN
 ------------
 
-```
+```shell
 git clone git@gitlab.com:ooptimo/job-application-tests-php.git
 cd job-application-tests-php
 composer install
@@ -20,7 +20,7 @@ composer install
 
 DESARROLLO
 ------------
-```
+```shell
 php yii serve
 ```
 abrir navegador en `http://localhost:8080/`.
