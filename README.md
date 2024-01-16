@@ -1,15 +1,17 @@
 OOPTIMO Job Application tests — PHP
 ------------
 
-Se trata de clonar este repositorio, instalar las dependencias y ejecutar la aplicación (instrucciones más abajo). 
+This exercise consists of adding new functionalities to this app.
+To do it, you have clone and setup this repository, run the app and you will find the instructions on how to implement the exercise.
 
-Al abrir la aplicación en el navegador, aparecerán las instrucciones para llevar a cabo los ejercicios.
+Once the exercise is done, send zip or repository link to [asunyer@ooptimo.com](mailto:asunyer@ooptimo.com).
 
-En caso de dudas o problemas, contactar con [asunyer@ooptimo.com](mailto:asunyer@ooptimo.com).
+In case of questions or problems, contact [asunyer@ooptimo.com](mailto:asunyer@ooptimo.com).
 
-*Nota: Este es un proyecto basado en el template básico de [Yii 2](https://www.yiiframework.com/).*
+*Note: This is a project based on the basic template of [Yii 2](https://www.yiiframework.com/) but you don't need to know Yii or do it "the yii way". Plain PHP, Composer and git is enought.*
 
-INSTALACIÓN
+
+INSTALLATION
 ------------
 
 ```shell
@@ -18,19 +20,15 @@ cd job-application-tests-php
 composer install
 ```
 
-DESARROLLO
+DEVELOPMENT
 ------------
 ```shell
 php yii serve
 ```
-abrir navegador en `http://localhost:8080/`.
+Open browser at `http://localhost:8080/`.
 
-REQUERIMIENTOS
-------------
 
-The minimum requirement by this project template that your Web server supports PHP 7.4.
-
-ESTRUCTURA DE DIRECTORIOS
+DIRECTORY STRUCTURE
 -------------------
 
       assets/             contains assets definition
