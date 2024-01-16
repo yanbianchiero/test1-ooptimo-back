@@ -13,7 +13,7 @@ INSTALACIÓN
 ------------
 
 ```shell
-git clone git@gitlab.com:ooptimo/job-application-tests-php.git
+git clone https://gitlab.com/ooptimo/job-application-tests-php.git
 cd job-application-tests-php
 composer install
 ```
