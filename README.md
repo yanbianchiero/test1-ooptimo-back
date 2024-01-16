@@ -8,7 +8,7 @@ Once the exercise is done, send zip or repository link to [asunyer@ooptimo.com](
 
 In case of questions or problems, contact [asunyer@ooptimo.com](mailto:asunyer@ooptimo.com).
 
-*Note: This is a project based on the basic template of [Yii 2](https://www.yiiframework.com/) but you don't need to know Yii or do it "the yii way". Plain PHP, Composer and git is enought.*
+*Note: This is a project based on the basic template of [Yii 2](https://www.yiiframework.com/) but you don't need to know much about Yii or do it "the yii way". PHP, MVC, Composer and git is enought.*
 
 
 INSTALLATION
