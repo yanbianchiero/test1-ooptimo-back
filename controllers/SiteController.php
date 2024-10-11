@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use yii\web\Controller;
+use app\models\PostsService;
 
 class SiteController extends Controller{
     /**
@@ -31,6 +32,8 @@ class SiteController extends Controller{
 	 * @return string
 	 */
 	public function actionTest1(){
-		return $this->render('test1');
+		return $this->render('test1', [
+            'posts'=>PostsService::getPosts()
+        ]);
 	}
 }

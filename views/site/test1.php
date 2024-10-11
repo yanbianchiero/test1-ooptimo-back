@@ -28,6 +28,23 @@ $this->title = 'Test 1 — ooptimo';
 	<div class="posts-list">
 		<div class="row mt-4">
 			<h2>Posts</h2>
+			<!-- Si bien el enunciado dice una lista me pareció que una tabla es mas adecuado para la solución -->
+			<table class="table table-striped">
+				<tr>
+					<th>ID</th>
+					<th>UserId</th>
+					<th>Title</th>
+					<th>Body</th>
+				</tr>
+				<?php foreach ($posts as $post): ?>
+					<tr>
+						<td><?= $post['id']; ?></td>
+						<td><?= $post['userId']; ?></td>
+						<td><?= $post['title']; ?></td>
+						<td><?= $post['body']; ?></td>
+					</tr>
+				<?php endforeach; ?>
+			</table>
 		</div>
 	</div>
 </div>
